@@ -1,4 +1,4 @@
-# taro-dropdown
+# taro-lazyload-image
 
 基于 [Taro](https://github.com/NervJS/taro) 的一个 图片懒加载 的组件
 
@@ -23,7 +23,11 @@ import LazyImage from 'taro-lazyload-image';
 
 ## 效果截图
 
-<video src="https://wx-static.yidejia.com/resource-1605172531725-75988.mp4" width="700" controls></video>
+``` 
+
+效果视频链接
+https://wx-static.yidejia.com/resource-1605172531725-75988.mp4
+```
 
 ## API
 
