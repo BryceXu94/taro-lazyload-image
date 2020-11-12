@@ -1,6 +1,6 @@
 {
 	"name": "taro-lazyload-image",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "基于Taro2.x的图片懒加载工具",
 	"author": "bryce94",
 	"license": "ISC",
