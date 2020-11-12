@@ -1,0 +1,69 @@
+{
+	"name": "taro-lazyload-image",
+	"version": "1.0.2",
+	"description": "基于Taro2.x的图片懒加载工具",
+	"author": "bryce94",
+	"license": "ISC",
+	"homepage": "",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"bugs": {
+		"url": ""
+	},
+	"keywords": [
+		"taro微信小程序",
+		"taro图片懒加载"
+	],
+	"scripts": {
+		"clean": "rimraf lib",
+		"copy": "make-dir lib && ncp src/index.ts lib/index.ts && ncp src/components lib/components",
+		"build": "npm run clean && npm run copy",
+		"release": "npm run build && np --no-tests",
+		"build:weapp": "taro build --type weapp",
+		"dev:weapp": "npm run build:weapp -- --watch"
+	},
+	"files": [
+		"lib"
+	],
+	"main": "lib/index.ts",
+	"devDependencies": {
+		"@tarojs/cli": "2.2.13",
+		"@tarojs/components": "2.2.11",
+		"@tarojs/mini-runner": "2.2.11",
+		"@tarojs/plugin-sass": "2.2.11",
+		"@tarojs/plugin-terser": "2.2.11",
+		"@tarojs/router": "2.2.11",
+		"@tarojs/taro": "2.2.11",
+		"@tarojs/taro-weapp": "2.2.11",
+		"@tarojs/webpack-runner": "2.2.11",
+		"@types/react": "^16.4.6",
+		"@types/webpack-env": "^1.13.6",
+		"@typescript-eslint/eslint-plugin": "^3.10.0",
+		"@typescript-eslint/parser": "^3.10.0",
+		"babel-eslint": "^8.2.3",
+		"babel-plugin-transform-class-properties": "^6.24.1",
+		"babel-plugin-transform-decorators-legacy": "^1.3.4",
+		"babel-plugin-transform-jsx-stylesheet": "^0.6.5",
+		"babel-plugin-transform-object-rest-spread": "^6.26.0",
+		"babel-plugin-transform-runtime": "^6.23.0",
+		"babel-preset-env": "^1.6.1",
+		"babel-runtime": "^6.26.0",
+		"eslint": "^5.16.0",
+		"eslint-config-taro": "2.2.11",
+		"eslint-plugin-import": "^2.12.0",
+		"eslint-plugin-react": "^7.8.2",
+		"eslint-plugin-react-hooks": "^1.6.1",
+		"eslint-plugin-taro": "2.2.11",
+		"make-dir-cli": "^2.0.0",
+		"ncp": "^2.0.0",
+		"nervjs": "^1.5.7",
+		"np": "^6.4.0",
+		"regenerator-runtime": "0.11.1",
+		"rimraf": "^3.0.2",
+		"stylelint": "9.3.0",
+		"typescript": "^3.0.1"
+	},
+	"dependencies": {}
+}
