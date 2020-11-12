@@ -4,13 +4,13 @@
 	"description": "基于Taro2.x的图片懒加载工具",
 	"author": "bryce94",
 	"license": "ISC",
-	"homepage": "",
+	"homepage": "https://github.com/CarlXu94/taro-lazyload-image.git",
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/CarlXu94/taro-lazyload-image.git"
 	},
 	"bugs": {
-		"url": ""
+		"url": "https://github.com/CarlXu94/taro-lazyload-image/issues"
 	},
 	"keywords": [
 		"taro微信小程序",
